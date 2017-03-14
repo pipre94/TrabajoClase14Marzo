@@ -12,7 +12,7 @@ public class CreateAccountActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
-        showToolbar("Crear cuenta",false);
+        showToolbar(getResources().getString(R.string.str_title_toolbar),true);
     }
 
     public void showToolbar(String title, boolean upButton){
